@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: auto;
+    scrollbar-color: #b0b3b868 #21548700;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff00;
+}
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #b0b3b868;
+    border-radius: 10px;
+    border: 3px solid #ffffff00;
+}
+
+body {
+    background-color: #165ca1;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    width: 30rem;
+    height: fit-content;
+    max-height: 100%;
+    border-radius: 10px;
+    background-color: #3c3d3d;
+    padding: 1.5rem 1.5rem 0.5rem;
+    color: #E4E6EB;
+    overflow: auto; 
+}
+
+.container header {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.container header h2 {
+    font-size: 1.5rem;
+}
+
+.container header span {
+    font-size: 0.75rem;
+    color: #B0B3B8;;
+}
+
+.botoes {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.botoes button{
+    border: none;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+background-color: #B0B3B8;
+}
+
+.aniversariante-container {
+border-top: 1px solid #45474a68;
+padding: 1rem 0;
+display: flex;
+gap: 1rem;
+align-items: center;
+justify-content: space-between;
+}
+
+.data-de-nascimento {
+font-size: 0.85rem;
+color: #B0B3B8;
+}
+
+.sem-aniversariante {
+border-top: 1px solid #b0b3b868;
+padding: 1rem 0;
+text-align: center;
+color: #B0B3B8;
+}
